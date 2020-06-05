@@ -348,7 +348,8 @@ class main(ThreeDScene):
         surface = Surface()
         self.play(
             ShowCreation(surface),
-            FadeOut(graph_text)
+            FadeOut(graph_text),
+            play_time = 5
         )
         self.wait(2)
         self.move_camera(phi = 90 * DEGREES, theta = 45 * DEGREES)
