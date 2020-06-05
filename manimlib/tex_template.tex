@@ -1,0 +1,44 @@
+\documentclass[preview]{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{dsfont}
+\usepackage{setspace}
+\usepackage{tipa}
+\usepackage{relsize}
+\usepackage{textcomp}
+\usepackage{mathrsfs}
+\usepackage{calligra}
+\usepackage{wasysym}
+\usepackage{ragged2e}
+\usepackage{physics}
+\usepackage{xcolor}
+\usepackage{textcomp}
+\usepackage{microtype}
+\DisableLigatures{encoding = *, family = * }
+%\usepackage[UTF8]{ctex}
+\linespread{1}
+
+%my
+\usepackage{enumitem}
+\usepackage[outline]{contour}
+\usepackage{ulem}
+\normalem
+
+\newcommand \myul[4]{%
+	\begingroup%
+	\renewcommand \ULdepth {#1}%
+	\renewcommand \ULthickness {#2}%
+	\contourlength{#3}%
+	\uline{\phantom{#4}}\llap{\contour{black}{#4}}%
+	\endgroup%
+}
+%my
+
+\begin{document}
+
+YourTextHere
+
+\end{document}

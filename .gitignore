@@ -1,0 +1,14 @@
+*.pyc
+*.bak
+videos
+__pycache__/
+manimlib/for_3b1b_videos
+manimlib/files/Tex
+files/Tex
+files/Text
+files
+.vscode
+.vs
+media/Tex
+media/video
+/media_dir.txt
